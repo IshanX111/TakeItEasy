@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmain"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="343dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/rsz_ishan" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="Take\n It\n Easy !!!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Learn Algorithm In Easy Way"/>
+
+
+</LinearLayout>

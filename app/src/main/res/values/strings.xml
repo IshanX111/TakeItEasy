@@ -1,0 +1,13 @@
+<resources>
+
+
+    <string name="app_name">TakeItEasy</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="help">Simply add, edit and delete your reminders. If you have any questions, go have a beer.</string>
+    <string name="type_here">Type Here .....</string>
+    <string name="send">Send</string>
+
+</resources>

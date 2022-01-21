@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mexa.example.takeiteasy">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TakeItEasy"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ResetPass"></activity>
+        <activity android:name=".CommentSectionPage" />
+        <activity android:name=".CommentPage" />
+        <activity android:name=".BackTrackingWeb" />
+        <activity android:name=".GraphTheoryWeb" />
+        <activity android:name=".NumberTheoryWeb" />
+        <activity android:name=".DataStructureWeb" />
+        <activity android:name=".AlgoVideo" />
+        <activity android:name=".BanglaVideo" />
+        <activity android:name=".Instructions" />
+        <activity android:name=".AlgorithmWeb" />
+        <activity android:name=".RankingPage" />
+        <activity android:name=".OpenReminder" />
+        <activity android:name=".ResultActivityNumberTheory" />
+        <activity android:name=".NumberTheoryQuestion" />
+        <activity android:name=".NumberTheoryQuiz" />
+        <activity android:name=".ResultActivityBack" />
+        <activity android:name=".BackTrackingQuestion" />
+        <activity android:name=".BackTrackingQuiz" />
+        <activity android:name=".ResultActivityGraph" />
+        <activity android:name=".GraphTheoryQuestion" />
+        <activity android:name=".GraphTheoryQuiz" />
+        <activity android:name=".ResultActivityAlgo" />
+        <activity android:name=".AlgorithmBasicQuestion" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".DataStructureQuestion" />
+        <activity android:name=".DataStructureQuizSection" />
+        <activity android:name=".AlgorithmBasicQuiz" />
+        <activity android:name=".QuizSection" />
+        <activity android:name=".BacktrackingBasicAndPerrmutation" />
+        <activity android:name=".Generator" />
+        <activity android:name=".DijkastraAlgorithm" />
+        <activity android:name=".BellmanFord" />
+        <activity android:name=".FloydWarshall" />
+        <activity android:name=".DepthFirstSearch" />
+        <activity android:name=".TopologicalSort" />
+        <activity android:name=".BinaryIndexedTree" />
+        <activity android:name=".LowestCommonAncestor" />
+        <activity android:name=".ArrayCompression" />
+        <activity android:name=".QueueAndCircularQueue" />
+        <activity android:name=".Stack" />
+        <activity android:name=".LinkedList" />
+        <activity android:name=".BreadthFirstSearch" />
+        <activity android:name=".AdjacencyList" />
+        <activity android:name=".AdjacencyMatrix" />
+        <activity android:name=".Probability" />
+        <activity android:name=".Derangement" />
+        <activity android:name=".BitwiseSieve" />
+        <activity android:name=".PrimeGenerator" />
+        <activity android:name=".ModulatorArithmetic" />
+        <activity android:name=".FloydCycle" />
+        <activity android:name=".BinarySearch" />
+        <activity android:name=".HaltingProblem" />
+        <activity android:name=".ComplexityClass" />
+        <activity android:name=".BigONotation" />
+        <activity android:name=".NumberTheory" />
+        <activity android:name=".BackTracking" />
+        <activity android:name=".GraphTheory" />
+        <activity android:name=".DataStructures" />
+        <activity android:name=".AlgorithmBasic" />
+        <activity android:name=".CoursePage" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".Ringing" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

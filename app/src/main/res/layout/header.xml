@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/sky3"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+       android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/comp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"
+        android:text="Take It Easy!!!"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>

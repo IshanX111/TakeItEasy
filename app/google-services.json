@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "509018691801",
+    "project_id": "takeiteasy-5f4f4",
+    "storage_bucket": "takeiteasy-5f4f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509018691801:android:9fcf8af54368cc954bc6c8",
+        "android_client_info": {
+          "package_name": "mexa.example.takeiteasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509018691801-qbktnc1qs7p75d3n6s7mq784c5c42leo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mexa.example.takeiteasy",
+            "certificate_hash": "b10dc1a22c3a94213385cd612b0126c6a2b46517"
+          }
+        },
+        {
+          "client_id": "509018691801-k2jakapj1a7veaj67g4a5du6kcmn8are.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSUhNR2rutSIaumMluQKtJHAnsKTe6wu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509018691801-k2jakapj1a7veaj67g4a5du6kcmn8are.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

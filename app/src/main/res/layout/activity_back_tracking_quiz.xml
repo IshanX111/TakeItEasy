@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purplereverse"
+    tools:context=".BackTrackingQuiz">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="281dp"
+        android:src="@drawable/source" />
+    <Button
+
+        android:layout_marginLeft="100dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:layout_marginTop="550dp"
+
+
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignStart="@+id/editName"/>
+
+    <!--EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editName"
+        android:textColor="#df040b"
+        android:hint="Enter your name"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" /-->
+
+
+    <!---Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="About"
+        android:id="@+id/button2"
+        android:textSize="30dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="#2840C5"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        /-->
+
+</RelativeLayout>

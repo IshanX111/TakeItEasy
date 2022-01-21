@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/resetpassword"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1920">
+        <TextView
+            android:id="@+id/cmk"
+            android:layout_width="50dp"
+            android:layout_weight="1060"
+            android:layout_height="0dp"
+            />
+        <EditText
+            android:id="@+id/send_email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="190"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+
+            android:inputType="textEmailAddress"
+
+            />
+        <TextView
+            android:id="@+id/centerbox2"
+            android:layout_width="50sp"
+            android:layout_weight="100"
+            android:layout_height="0dp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="30dp"
+            android:text="Reset "
+
+            android:textColor="@android:color/white" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
